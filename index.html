@@ -57,15 +57,40 @@
           </div>
           <div class="pb-1">
             <ul>
-            {{#each skils}}
-            <li>{{this}}</li>
-            {{/each}}
+              {{#each skils}}
+              <li>{{this}}</li>
+              {{/each}}
             </ul>
+          </div>
+        </div>
+        <div class="pt-1">
+          <div class="pb-1">
+            <h2 class="text-xl text-primary font-bold pb-1">Sprachen</h2>
+            <hr class="h-px bg-gray-300 border-0">
+          </div>
+          <div class="pb-1">
+            <ul>
+              {{#each languages}}
+              <li>{{this}}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+        <div class="pt-1">
+          <div class="pb-1">
+            <h2 class="text-xl text-primary font-bold pb-1">Links</h2>
+            <hr class="h-px bg-gray-300 border-0">
+          </div>
+          <div class="pb-1">
+            <a class="flex" href="https://github.com/PSenfft">
+              <img class="object-contain w-16 h-16" src="github-mark.svg" />
+              <img class="object-contain w-18 h-18" src="qrcode_github.com.png" />
+            </a>
           </div>
         </div>
       </aside>
       <section class="w-40 grow-2 border-l-1 border-gray-300 ml-3 pl-3">
-        <div class="ml-2 pb-10">
+        <div class="ml-2 pb-12">
           <h2 class="text-xl text-primary font-bold">Beruflicher Werdegang</h2>
           <hr class="h-px bg-gray-300 border-0">
           {{#each jobs}}
@@ -74,7 +99,7 @@
           <div>
           </div>
         </div>
-        <div class="ml-2 pb-10">
+        <div class="ml-2 pb-12">
           <h2 class="text-xl text-primary font-bold">Akademische Laufbahn</h2>
           <hr class="h-px bg-gray-300 border-0">
           {{#each schools}}
