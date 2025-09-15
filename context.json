@@ -2,23 +2,45 @@
   "firstname": "Max",
   "lastname": "Musterman",
   "title": "Software Engineer B.Sc.",
+  "image_url": "https://www.ardeaprints.com/p/172/cat-british-shorthair-silver-spotted-tabby-646703.jpg.webp",
   "address": "Deutschland, 10557 Berlin, Willy-Brandt-Straße 1",
   "email": "me@example.com",
-  "image_url": "https://placehold.co/400x600",
+  "tel": "0162-4468215244",
+  "nationality": "deutsch",
+  "marital_status": "ledig",
+  "place_of_birth": "Northpol",
+  "skils": ["Rust", "C", ".."],
+
   "jobs": [
     {
       "from": "2015",
       "to": "2022",
-      "title": "Lorem",
-      "subtitle": "ipsum",
-      "desc": "Lorem ipsum"
+      "title": "Wissenschaflicher Mitarbeiter",
+      "subtitle": "Springfield University of atomar physics",
+      "desc": ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum", "Lorem ipsum"]
     },
     {
       "from": "2022",
       "to": "2025",
       "title": "Lorem",
       "subtitle": "ipsum",
+      "desc": ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum"]
+    }
+  ],
+   "schools": [
+    {
+      "from": "2015",
+      "to": "2022",
+      "title": "Primary School",
+      "subtitle": "Harry Herpson High School (HHHS)",
       "desc": "Lorem ipsum"
+    },
+    {
+      "from": "2022",
+      "to": "2025",
+      "title": "Wizarding Examinations (N.E.W.T.s)",
+      "subtitle": "Hogwarts school of magic for young wizards",
+        "desc": ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum", "Lorem ipsum", "Lorem ipsum",  "Lorem ipsum", "Lorem ipsum"]
     }
   ]
 }
