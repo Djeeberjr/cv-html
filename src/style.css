@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.smallHeader {
+  @apply text-sm font-bold
+}
+
+@theme {
+  --color-primary: oklch(52.7% 0.154 150.069);
+}

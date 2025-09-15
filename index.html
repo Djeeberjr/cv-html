@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lebenslauf</title>
+  </head>
+<body class="bg-gray-100 text-gray-800">
+  <script type="module" src="/src/main.ts"></script>
+  <main class="max-w-6xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-8">
+    <div class="pb-2"> 
+      <h1 class="text-5xl text-primary font-bold" >{{ firstname }} {{ lastname }}</h1>
+      <h2 class="text-s text-primary italic">{{ title }}</h2>
+    </div>
+    <div class="flex justify-between">
+      <div class="w-60 p-2">
+        <div >
+          <img src="{{ image_url }}" />
+        </div>
+        <div> 
+          <h2 class="text-xl text-primary font-bold">Persönliche Daten</h2>
+          <hr class="h-px bg-gray-300 border-0">
+          <h3 class="smallHeader">Anschrift</h3>
+          <p>{{ address }}</p>
+          <h3 class="smallHeader">Email</h3>
+          <a href="mailto:{{ email }}">{{ email }}</a>
+        </div>
+      </div> 
+      <div class="w-40 grow-2">
+        <div class="ml-2">
+          <h2 class="text-xl text-primary font-bold" >Testo</h2>
+          <hr class="h-px bg-gray-300 border-0">
+          {{#each jobs}}
+            {{> dateList this }}
+          {{/each}}
+        <div>
+      </div>
+    <div>
+  </main>
+</body>
+</html>

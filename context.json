@@ -1,0 +1,24 @@
+{
+  "firstname": "Max",
+  "lastname": "Musterman",
+  "title": "Software Engineer B.Sc.",
+  "address": "Deutschland, 10557 Berlin, Willy-Brandt-Straße 1",
+  "email": "me@example.com",
+  "image_url": "https://placehold.co/400x600",
+  "jobs": [
+    {
+      "from": "2015",
+      "to": "2022",
+      "title": "Lorem",
+      "subtitle": "ipsum",
+      "desc": "Lorem ipsum"
+    },
+    {
+      "from": "2022",
+      "to": "2025",
+      "title": "Lorem",
+      "subtitle": "ipsum",
+      "desc": "Lorem ipsum"
+    }
+  ]
+}
