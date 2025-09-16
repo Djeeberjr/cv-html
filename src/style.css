@@ -4,6 +4,14 @@
   @apply text-sm font-bold pb-1
 }
 
+.mediumHeader {
+  @apply text-xl text-primary font-bold
+}
+
+.line {
+  @apply h-px bg-gray-300 border-0
+}
+
 @theme {
   --color-primary: oklch(52.7% 0.154 150.069);
 }

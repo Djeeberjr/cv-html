@@ -1,61 +1,60 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lebenslauf</title>
 </head>
 
 <body class="bg-gray-100 text-gray-800">
   <script type="module" src="/src/main.ts"></script>
-  <main class="max-w-6xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-8">
-    <div class="pb-2">
-      <h1 class="text-5xl text-primary font-bold">{{ firstname }} {{ lastname }}</h1>
-      <h2 class="text-s text-primary italic p-2">{{ title }}</h2>
-    </div>
+  <main class="max-w-6xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-8 print:mt-0 print:rounded-none">
+    <header class="mb-2">
+      <h1 class="text-5xl text-primary font-bold -ml-1">{{ firstname }} {{ lastname }}</h1>
+      <h2 class="text-s text-primary italic">{{ title }}</h2>
+    </header>
     <div class="flex justify-between">
       <aside class="w-60">
-        <div>
+        <figure>
           <img src="{{ image_url }}" />
-        </div>
-        <div class="pt-1">
-          <div class="pb-1">
-            <h2 class="text-xl text-primary font-bold pb-1">Persönliche Daten</h2>
-            <hr class="h-px bg-gray-300 border-0">
+        </figure>
+        <div class="mt-1">
+          <div class="mb-1">
+            <h2 class="mediumHeader pb-1">Persönliche Daten</h2>
+            <hr class="line">
           </div>
-          <div class="pb-1">
+          <div class="mb-1">
             <h3 class="smallHeader">Anschrift</h3>
             <p>{{ address }}</p>
           </div>
-          <div class="pb-1">
+          <div class="mb-1">
             <h3 class="smallHeader">Email</h3>
             <a href="mailto:{{ email }}">{{ email }}</a>
           </div>
-          <div class="pb-1">
+          <div class="mb-1">
             <h3 class="smallHeader">Telefon</h3>
             <a href="tel:{{ tel }}">{{ tel }}</a>
           </div>
-          <div class="pb-1">
+          <div class="mb-1">
             <h3 class="smallHeader">Staatsbürgerschaft</h3>
             <p>{{ nationality }}</p>
           </div>
-          <div class="pb-1">
+          <div class="mb-1">
             <h3 class="smallHeader">Familienstand</h3>
             <p>{{ marital_status }}</p>
           </div>
-          <div class="pb-1">
+          <div class="mb-1">
             <h3 class="smallHeader">Geburtsort</h3>
             <p>{{ place_of_birth }}</p>
           </div>
         </div>
-        <div class="pt-1">
-          <div class="pb-1">
-            <h2 class="text-xl text-primary font-bold pb-1">Technologien</h2>
-            <hr class="h-px bg-gray-300 border-0">
+        <div class="mt-1">
+          <div class="mb-1">
+            <h2 class="mediumHeader pb-1">Technologien</h2>
+            <hr class="line">
           </div>
-          <div class="pb-1">
+          <div class="mb-1">
             <ul>
               {{#each skils}}
               <li>{{this}}</li>
@@ -63,12 +62,12 @@
             </ul>
           </div>
         </div>
-        <div class="pt-1">
-          <div class="pb-1">
-            <h2 class="text-xl text-primary font-bold pb-1">Sprachen</h2>
-            <hr class="h-px bg-gray-300 border-0">
+        <div class="mt-1">
+          <div class="mb-1">
+            <h2 class="mediumHeader mb-1">Sprachen</h2>
+            <hr class="line">
           </div>
-          <div class="pb-1">
+          <div class="mb-1">
             <ul>
               {{#each languages}}
               <li>{{this}}</li>
@@ -76,12 +75,12 @@
             </ul>
           </div>
         </div>
-        <div class="pt-1">
-          <div class="pb-1">
-            <h2 class="text-xl text-primary font-bold pb-1">Links</h2>
-            <hr class="h-px bg-gray-300 border-0">
+        <div class="mt-1">
+          <div class="mb-1">
+            <h2 class="mediumHeader pb-1">Links</h2>
+            <hr class="line">
           </div>
-          <div class="pb-1">
+          <div class="mb-1">
             <a class="flex" href="https://github.com/PSenfft">
               <img class="object-contain w-16 h-16" src="github-mark.svg" />
               <img class="object-contain w-18 h-18" src="qrcode_github.com.png" />
@@ -91,8 +90,8 @@
       </aside>
       <section class="w-40 grow-2 border-l-1 border-gray-300 ml-3 pl-3">
         <div class="ml-2 pb-12">
-          <h2 class="text-xl text-primary font-bold">Beruflicher Werdegang</h2>
-          <hr class="h-px bg-gray-300 border-0">
+          <h2 class="mediumHeader">Beruflicher Werdegang</h2>
+          <hr class="line">
           {{#each jobs}}
           {{> dateList this}}
           {{/each}}
@@ -100,8 +99,8 @@
           </div>
         </div>
         <div class="ml-2 pb-12">
-          <h2 class="text-xl text-primary font-bold">Akademische Laufbahn</h2>
-          <hr class="h-px bg-gray-300 border-0">
+          <h2 class="mediumHeader">Akademische Laufbahn</h2>
+          <hr class="line">
           {{#each schools}}
           {{> dateList this }}
           {{/each}}
