@@ -5,6 +5,7 @@ import handlebars from "vite-plugin-handlebars";
 import ctx from "./context.json"
 
 export default defineConfig({
+  base: "./",
   plugins: [
     tailwindcss(),
     handlebars({
