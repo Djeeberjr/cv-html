@@ -23,6 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-context.json
+/context.json
 /public
 

@@ -13,7 +13,7 @@
     class="max-w-6xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-8 print:mt-0 print:rounded-none print:shadow-none">
     <header class="mb-2">
       <h1 class="text-5xl text-primary font-bold -ml-1">{{ firstname }} {{ lastname }}</h1>
-      <h2 class="text-s text-primary italic">{{ title }}</h2>
+      <h2 class="text-s pt-2 text-primary italic">{{ title }}</h2>
     </header>
     <div class="flex justify-between">
       <aside class="w-60">
@@ -91,6 +91,15 @@
       </aside>
       <section class="w-40 grow-2 border-l-1 border-gray-300 ml-3 pl-3">
         <div class="ml-2 pb-12">
+          <h2 class="mediumHeader">Akademische Laufbahn</h2>
+          <hr class="line">
+          {{#each schools}}
+          {{> dateList this }}
+          {{/each}}
+          <div>
+          </div>
+        </div>
+        <div class="ml-2 pb-12">
           <h2 class="mediumHeader">Beruflicher Werdegang</h2>
           <hr class="line">
           {{#each jobs}}
@@ -100,9 +109,18 @@
           </div>
         </div>
         <div class="ml-2 pb-12">
-          <h2 class="mediumHeader">Akademische Laufbahn</h2>
+          <h2 class="mediumHeader">Ehrenamtliche Tätigkeiten</h2>
           <hr class="line">
-          {{#each schools}}
+          {{#each volunteer_work}}
+          {{> dateList this }}
+          {{/each}}
+          <div>
+          </div>
+        </div>
+        <div class="ml-2 pb-12">
+          <h2 class="mediumHeader">Projekte</h2>
+          <hr class="line">
+          {{#each projects}}
           {{> dateList this }}
           {{/each}}
           <div>
