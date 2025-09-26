@@ -1,14 +1,14 @@
 {
-  "firstname": "Max",
-  "lastname": "Musterman",
+  "firstname": "Philipp",
+  "lastname": "Senfft",
   "title": "Software Engineer B.Sc.",
   "image_url": "https://www.ardeaprints.com/p/172/cat-british-shorthair-silver-spotted-tabby-646703.jpg.webp",
-  "address": "Deutschland, 10557 Berlin, Willy-Brandt-Straße 1",
-  "email": "me@example.com",
-  "tel": "0162-4468215244",
+  "address": "Deutschland, Heilbronn, Schmollerstraße 10, 74074",
+  "email": "philipp.senfft@gmail.com",
+  "tel": "01622776971",
   "nationality": "deutsch",
   "marital_status": "ledig",
-  "place_of_birth": "Northpol",
+  "place_of_birth": "Künzelsau",
   "skils": [
     "Rust",
     "C",
@@ -30,67 +30,109 @@
   ],
   "jobs": [
     {
-      "from": "2015",
-      "to": "2022",
+      "from": "05/2024",
+      "to": "05/2025",
       "title": "Wissenschaflicher Mitarbeiter",
-      "subtitle": "Springfield University of atomar physics",
+      "subtitle": "Hochschule Heilbronn, Heilbronn",
       "desc": [
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum"
+        "Wissenschaftliche Betreuung und Koordination für die Entwicklung einer KI-gestützten Feuerwehr-Erkundungsdrohne in einem Konsortium aus Industrie, Forschung und BOS"
       ]
     },
     {
-      "from": "2022",
-      "to": "2025",
-      "title": "Geological Reserch",
-      "subtitle": "United States Geological Survey, Southpark",
+      "from": "09/2021",
+      "to": "01/2023",
+      "title": "Embedded Software-Engineer",
+      "subtitle": "Sensovo GmbH, Heilbronn",
       "desc": [
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum"
+        "BMBF gefördertes Forschungsprojekt:\n\r<br>Soziale Sensibilisierung zwischen neurotypischen und neurodivergenten Personen und der Fragestellung zur Übertragung von Gefühlen",
+        "Prototyping",
+        "C Programmierung",
+        "PCB Platinen designen (KiCad)"
+      ]
+    },
+    {
+      "from": "09/2020",
+      "to": "03/2021",
+      "title": "Praktikum im Bereich IT-Security",
+      "subtitle": "Ziehl-Abegg SE, Künzelsau",
+      "desc": [
+        "Erstellen von Notfallplänen",
+        "Betreuung von extern vergebenen Projekten",
+        "Aufbau eines ISMS"
+      ]
+    },
+    {
+      "from": "02/2017",
+      "to": "08/2017",
+      "title": "Elektroniker für Geräte u. Systeme",
+      "subtitle": "GEMÜ Gebr. Müller Apparatebau GmbH & Co. KG, Criesbach",
+      "desc": [
+        "Endmontage von Stell- und Prozessregler"
+      ]
+    },
+    {
+      "from": "09/2013",
+      "to": "02/2017",
+      "title": "Ausbildung als Elektroniker für Geräte und Systeme",
+      "subtitle": "GEMÜ Gebr. Müller Apparatebau GmbH & Co. KG, Criesbach",
+      "desc": [
+        "Endmontage von Stell- und Prozessregler"
       ]
     }
   ],
   "schools": [
     {
-      "from": "2022",
-      "to": "2025",
+      "from": "03/2023",
+      "to": "bis jetzt",
+      "title": "Software Engineering, Master of Science",
+      "subtitle": "Hochschule Heilbronn, Heilbronn",
+      "desc": [
+        "Schwerpunkt: Advanced Software Engineering and Data Science (ASEDS)"
+      ]
+    },
+    {
+      "from": "09/2018",
+      "to": "01/2023",
       "title": "Software Engineering, Bachelor of Science",
-      "subtitle": "University of Applied Science",
+      "subtitle": "Hochschule Heilbronn, Heilbronn",
       "desc": [
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum"
+        "Schwerpunkt: Systems Engineering"
       ]
     },
     {
-      "from": "2022",
-      "to": "2025",
-      "title": "Wizarding Examinations (N.E.W.T.s)",
-      "subtitle": "Hogwarts school of magic for young wizards",
+      "from": "09/2018",
+      "to": "01/2023",
+      "title": "Berufskolleg Fachhochschulreife BKFH",
+      "subtitle": "Gewerbliche Schule Künzelsau, Künzelsau",
+      "desc": []
+    },
+    {
+      "from": "09/2018",
+      "to": "01/2023",
+      "title": "Berufskolleg Fachhochschulreife BKFH",
+      "subtitle": "Gewerbliche Schule Künzelsau, Künzelsau",
+      "desc": []
+    }
+  ],
+  "volunteer_work": [
+    {
+      "from": "01/2011",
+      "to": "bis jetzt",
+      "title": "Mitglied bei der Freiwilligen Feuerwehr",
+      "subtitle": "Gruppenführer, CBRN-Erkunder, Maschinist, A-Träger"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Anwesenheitserfassungsterminal für die Freiwillige Feuerwehr",
       "desc": [
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum",
-        "Lorem ipsum"
+        "Anwesenheitserfassungsterminal, das die Anwesenheit für einen Tag mithilfe von NFC-Tags erfasst. Geschrieben in Rust (Bare Metal) für einen ESP32C6. Datenspeicherung auf einer Industrie-Micro-SD-Card. Gehäuse mit Autodesk Fusion designt und 3D-gedruckt. PCB mit KiCad designt."
       ]
     },
     {
-      "from": "2015",
-      "to": "2022",
-      "title": "Primary School",
-      "subtitle": "Harry Herpson High School (HHHS)",
+      "title": "Luftqualitätssensor",
       "desc": [
-        "Lorem ipsum"
+        "Sensor zur Überwachung der Luftqualität mittels VOC-Sensor sowie Temperatur und Luftfeuchtigkeit. Geschrieben in Rust (Bare Metal). Ausgabe über OLED-Display. Kommunikation der Sensoren über I²C"
       ]
     }
   ]
